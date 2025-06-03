@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-export default function GamePage() {
+export default function Home() {
   const gameRef = useRef(null);
   const playerRef = useRef(null);
   const [enemies, setEnemies] = useState([]);
